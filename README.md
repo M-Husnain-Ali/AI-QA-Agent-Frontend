@@ -1,25 +1,15 @@
-# 🤖 AI-Powered Q&A Agent
+# 🌐 AI Q&A Frontend (React)
 
-An interactive web application that enables users to chat with an AI assistant using **React** for the frontend, **Django REST Framework** for the backend, and **Groq AI** for intelligent responses. The app maintains conversation history to provide context-aware replies.
+This is the frontend of the AI-Powered Q&A Agent built using **React.js**. It allows users to type queries, view responses from the AI, and track the conversation history in a user-friendly chat format.
 
 ---
 
 ## 🚀 Features
 
-- Ask questions via a simple and dynamic UI
-- Real-time AI responses using Groq API
-- Persistent conversation history for context-aware answers
-- Clean separation of frontend (React) and backend (Django)
-- In-memory storage of conversation history
-
----
-
-## 🧠 Tech Stack
-
-- **Frontend**: React.js  
-- **Backend**: Django + Django REST Framework  
-- **AI Integration**: Groq AI (OpenAI-compatible LLM)  
-- **Communication**: REST API  
+- Chat UI with input box and submit button
+- Displays AI responses and query history
+- Dynamically updates without page reload
+- Communicates with Django backend API
 
 ---
 
@@ -27,9 +17,23 @@ An interactive web application that enables users to chat with an AI assistant u
 
 ### 🔧 Prerequisites
 
-- Node.js (v14+)
-- Python 3.8+
-- pip
-- Git
+- Node.js (v14 or later)
+- npm
 
----
+### 📦 Installation
+
+1. **Navigate to the frontend folder**
+
+```bash
+cd frontend
+```
+2. **Install dependencies**
+
+```bash
+npm install
+```
+3. **Run the development server**
+
+```bash
+npm start
+```
